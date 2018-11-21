@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  GitJob.m
 //  RB_CodeChallenege
 //
 //  Created by Ross Bertsch on 11/21/18.
 //  Copyright © 2018 rbertsch. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GitJob.h"
 
-@interface ViewController : UITableViewController
-
+@implementation GitJob
 
 @end
-

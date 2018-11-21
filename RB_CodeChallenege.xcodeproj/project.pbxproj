@@ -15,6 +15,9 @@
 		1B9B3E2221A530AF0019700D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E2121A530AF0019700D /* main.m */; };
 		1B9B3E2C21A530AF0019700D /* RB_CodeChallenegeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E2B21A530AF0019700D /* RB_CodeChallenegeTests.m */; };
 		1B9B3E3721A530AF0019700D /* RB_CodeChallenegeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E3621A530AF0019700D /* RB_CodeChallenegeUITests.m */; };
+		1B9B3E4F21A54FA10019700D /* GitJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E4E21A54FA10019700D /* GitJob.m */; };
+		1B9B3E5321A557BF0019700D /* GitJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E5121A557BF0019700D /* GitJobTableViewCell.m */; };
+		1B9B3E5721A56CFD0019700D /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B3E5621A56CFD0019700D /* JobDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		1B9B3E3221A530AF0019700D /* RB_CodeChallenegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RB_CodeChallenegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9B3E3621A530AF0019700D /* RB_CodeChallenegeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RB_CodeChallenegeUITests.m; sourceTree = "<group>"; };
 		1B9B3E3821A530AF0019700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9B3E4D21A54FA10019700D /* GitJob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitJob.h; sourceTree = "<group>"; };
+		1B9B3E4E21A54FA10019700D /* GitJob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitJob.m; sourceTree = "<group>"; };
+		1B9B3E5021A557BF0019700D /* GitJobTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitJobTableViewCell.h; sourceTree = "<group>"; };
+		1B9B3E5121A557BF0019700D /* GitJobTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitJobTableViewCell.m; sourceTree = "<group>"; };
+		1B9B3E5521A56CFD0019700D /* JobDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
+		1B9B3E5621A56CFD0019700D /* JobDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				1B9B3E1321A530AE0019700D /* AppDelegate.m */,
 				1B9B3E1521A530AE0019700D /* ViewController.h */,
 				1B9B3E1621A530AE0019700D /* ViewController.m */,
+				1B9B3E5521A56CFD0019700D /* JobDetailViewController.h */,
+				1B9B3E5621A56CFD0019700D /* JobDetailViewController.m */,
+				1B9B3E5021A557BF0019700D /* GitJobTableViewCell.h */,
+				1B9B3E5121A557BF0019700D /* GitJobTableViewCell.m */,
+				1B9B3E4D21A54FA10019700D /* GitJob.h */,
+				1B9B3E4E21A54FA10019700D /* GitJob.m */,
 				1B9B3E1821A530AE0019700D /* Main.storyboard */,
 				1B9B3E1B21A530AF0019700D /* Assets.xcassets */,
 				1B9B3E1D21A530AF0019700D /* LaunchScreen.storyboard */,
@@ -263,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9B3E1721A530AE0019700D /* ViewController.m in Sources */,
+				1B9B3E5321A557BF0019700D /* GitJobTableViewCell.m in Sources */,
 				1B9B3E2221A530AF0019700D /* main.m in Sources */,
+				1B9B3E5721A56CFD0019700D /* JobDetailViewController.m in Sources */,
+				1B9B3E4F21A54FA10019700D /* GitJob.m in Sources */,
 				1B9B3E1421A530AE0019700D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

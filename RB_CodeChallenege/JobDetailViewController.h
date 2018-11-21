@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JobDetailViewController.h
 //  RB_CodeChallenege
 //
 //  Created by Ross Bertsch on 11/21/18.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GitJob.h"
 
-@interface ViewController : UITableViewController
+@interface JobDetailViewController : UIViewController
 
+@property (nonatomic, strong) GitJob *selectedJob;
 
 @end
-
