@@ -43,10 +43,12 @@
             job.location = [dict objectForKey:@"location"];
             job.details = [dict objectForKey:@"description"];
             job.company = [dict objectForKey:@"company"];
-            NSLog(@"title : %@", job.details);
             [self.gitJobsArray addObject:job];
         }
-        [self.tableView reloadData];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableView reloadData];
+        });
     }];
     
     [downloadTask resume];
